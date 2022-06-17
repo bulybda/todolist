@@ -1,0 +1,83 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+
+}
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+
+}
+form {
+  height: 200px;
+  padding-top:70px;
+  background-color:darkgrey;
+  display:flex;
+  justify-content: center;
+}
+h1{
+  background-color:darkgray;
+  padding-top:15px;
+  color:white;
+  display:flex;
+  justify-content:center;
+}
+.myInput {
+  display:flex;
+  width:300px;
+  height:10px;
+}
+#root {
+  display:flex;
+  justify-content: center;
+  padding-top:200px;
+}
+
+.App{
+  width: 800px;
+
+}
+
+.myInput {
+  display:flex;
+  width:500px;
+  height:50px;
+}
+
+.btnCreate{
+  padding-top:10px;
+  border-radius: 0px;
+  display:flex;
+  background-color:darkgrey;
+  text-align:center;
+  color:white;
+  width:75px;
+  height:50px;
+}
+
+.task {
+  padding:10px;
+  height:35px;
+  display:flex;
+  justify-content: space-between;
+  background-color:darkgray;
+}
+.task-done {
+  padding:10px;
+  height:35px;
+  display:flex;
+  justify-content: space-between;
+  background-color: darkgray;
+  /*text-decoration: line-through;*/
+}
+.sort{
+  width:400px;
+}
+.sort button {
+  margin:10px;
+}
